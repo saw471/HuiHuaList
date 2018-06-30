@@ -1,0 +1,455 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18AA1B2C209951B400E3D9C9 /* HHTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18AA1B2B209951B400E3D9C9 /* HHTableView.m */; };
+		18D6CE1620931E960095C014 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D6CE1520931E960095C014 /* AppDelegate.m */; };
+		18D6CE1920931E960095C014 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D6CE1820931E960095C014 /* ViewController.m */; };
+		18D6CE1C20931E960095C014 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18D6CE1A20931E960095C014 /* Main.storyboard */; };
+		18D6CE1F20931E960095C014 /* HuiHua.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 18D6CE1D20931E960095C014 /* HuiHua.xcdatamodeld */; };
+		18D6CE2120931E960095C014 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18D6CE2020931E960095C014 /* Assets.xcassets */; };
+		18D6CE2420931E960095C014 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18D6CE2220931E960095C014 /* LaunchScreen.storyboard */; };
+		18D6CE2720931E960095C014 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D6CE2620931E960095C014 /* main.m */; };
+		18D6CE2F20931ED90095C014 /* HuiHuaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D6CE2E20931ED90095C014 /* HuiHuaViewController.m */; };
+		18D6CE3320931FC20095C014 /* HuiHuaTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D6CE3120931FC20095C014 /* HuiHuaTableViewCell.m */; };
+		18D6CE3420931FC20095C014 /* HuiHuaTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18D6CE3220931FC20095C014 /* HuiHuaTableViewCell.xib */; };
+		18D6CE37209333790095C014 /* CustomLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D6CE36209333790095C014 /* CustomLabel.m */; };
+		2291737ECB72C672C7990CA8 /* libPods-HuiHua.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DD55CC168EA4BEDAF04D93C /* libPods-HuiHua.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		18AA1B2A209951B400E3D9C9 /* HHTableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HHTableView.h; sourceTree = "<group>"; };
+		18AA1B2B209951B400E3D9C9 /* HHTableView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HHTableView.m; sourceTree = "<group>"; };
+		18D6CE1120931E960095C014 /* HuiHua.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HuiHua.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		18D6CE1420931E960095C014 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		18D6CE1520931E960095C014 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		18D6CE1720931E960095C014 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		18D6CE1820931E960095C014 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		18D6CE1B20931E960095C014 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		18D6CE1E20931E960095C014 /* HuiHua.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = HuiHua.xcdatamodel; sourceTree = "<group>"; };
+		18D6CE2020931E960095C014 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18D6CE2320931E960095C014 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		18D6CE2520931E960095C014 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18D6CE2620931E960095C014 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		18D6CE2D20931ED90095C014 /* HuiHuaViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HuiHuaViewController.h; sourceTree = "<group>"; };
+		18D6CE2E20931ED90095C014 /* HuiHuaViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HuiHuaViewController.m; sourceTree = "<group>"; };
+		18D6CE3020931FC20095C014 /* HuiHuaTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HuiHuaTableViewCell.h; sourceTree = "<group>"; };
+		18D6CE3120931FC20095C014 /* HuiHuaTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HuiHuaTableViewCell.m; sourceTree = "<group>"; };
+		18D6CE3220931FC20095C014 /* HuiHuaTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HuiHuaTableViewCell.xib; sourceTree = "<group>"; };
+		18D6CE35209333790095C014 /* CustomLabel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomLabel.h; sourceTree = "<group>"; };
+		18D6CE36209333790095C014 /* CustomLabel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomLabel.m; sourceTree = "<group>"; };
+		5C27D2559D1872C1907ACF7C /* Pods-HuiHua.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HuiHua.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HuiHua/Pods-HuiHua.debug.xcconfig"; sourceTree = "<group>"; };
+		68886D801A11468E8E2E25EB /* Pods-HuiHua.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HuiHua.release.xcconfig"; path = "Pods/Target Support Files/Pods-HuiHua/Pods-HuiHua.release.xcconfig"; sourceTree = "<group>"; };
+		9DD55CC168EA4BEDAF04D93C /* libPods-HuiHua.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HuiHua.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18D6CE0E20931E960095C014 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2291737ECB72C672C7990CA8 /* libPods-HuiHua.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18D6CE0820931E960095C014 = {
+			isa = PBXGroup;
+			children = (
+				18D6CE1320931E960095C014 /* HuiHua */,
+				18D6CE1220931E960095C014 /* Products */,
+				A210A4CD1AC27652BC2F1F10 /* Pods */,
+				5FEAC9B23C0ADD5F6B8DA773 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		18D6CE1220931E960095C014 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18D6CE1120931E960095C014 /* HuiHua.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18D6CE1320931E960095C014 /* HuiHua */ = {
+			isa = PBXGroup;
+			children = (
+				18D6CE1420931E960095C014 /* AppDelegate.h */,
+				18D6CE1520931E960095C014 /* AppDelegate.m */,
+				18D6CE1720931E960095C014 /* ViewController.h */,
+				18D6CE1820931E960095C014 /* ViewController.m */,
+				18D6CE2D20931ED90095C014 /* HuiHuaViewController.h */,
+				18D6CE2E20931ED90095C014 /* HuiHuaViewController.m */,
+				18AA1B2A209951B400E3D9C9 /* HHTableView.h */,
+				18AA1B2B209951B400E3D9C9 /* HHTableView.m */,
+				18D6CE3020931FC20095C014 /* HuiHuaTableViewCell.h */,
+				18D6CE3120931FC20095C014 /* HuiHuaTableViewCell.m */,
+				18D6CE3220931FC20095C014 /* HuiHuaTableViewCell.xib */,
+				18D6CE35209333790095C014 /* CustomLabel.h */,
+				18D6CE36209333790095C014 /* CustomLabel.m */,
+				18D6CE1A20931E960095C014 /* Main.storyboard */,
+				18D6CE2020931E960095C014 /* Assets.xcassets */,
+				18D6CE2220931E960095C014 /* LaunchScreen.storyboard */,
+				18D6CE2520931E960095C014 /* Info.plist */,
+				18D6CE2620931E960095C014 /* main.m */,
+				18D6CE1D20931E960095C014 /* HuiHua.xcdatamodeld */,
+			);
+			path = HuiHua;
+			sourceTree = "<group>";
+		};
+		5FEAC9B23C0ADD5F6B8DA773 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9DD55CC168EA4BEDAF04D93C /* libPods-HuiHua.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A210A4CD1AC27652BC2F1F10 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5C27D2559D1872C1907ACF7C /* Pods-HuiHua.debug.xcconfig */,
+				68886D801A11468E8E2E25EB /* Pods-HuiHua.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18D6CE1020931E960095C014 /* HuiHua */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18D6CE2A20931E960095C014 /* Build configuration list for PBXNativeTarget "HuiHua" */;
+			buildPhases = (
+				B26E450C98C031B604116904 /* [CP] Check Pods Manifest.lock */,
+				18D6CE0D20931E960095C014 /* Sources */,
+				18D6CE0E20931E960095C014 /* Frameworks */,
+				18D6CE0F20931E960095C014 /* Resources */,
+				6861A94AD41304C1AC203BE8 /* [CP] Embed Pods Frameworks */,
+				0579E6940D01BD3C13FAD624 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HuiHua;
+			productName = HuiHua;
+			productReference = 18D6CE1120931E960095C014 /* HuiHua.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18D6CE0920931E960095C014 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = apple;
+				TargetAttributes = {
+					18D6CE1020931E960095C014 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 18D6CE0C20931E960095C014 /* Build configuration list for PBXProject "HuiHua" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18D6CE0820931E960095C014;
+			productRefGroup = 18D6CE1220931E960095C014 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18D6CE1020931E960095C014 /* HuiHua */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18D6CE0F20931E960095C014 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18D6CE2420931E960095C014 /* LaunchScreen.storyboard in Resources */,
+				18D6CE2120931E960095C014 /* Assets.xcassets in Resources */,
+				18D6CE1C20931E960095C014 /* Main.storyboard in Resources */,
+				18D6CE3420931FC20095C014 /* HuiHuaTableViewCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0579E6940D01BD3C13FAD624 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-HuiHua/Pods-HuiHua-resources.sh",
+				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MJRefresh.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HuiHua/Pods-HuiHua-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6861A94AD41304C1AC203BE8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HuiHua/Pods-HuiHua-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B26E450C98C031B604116904 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HuiHua-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18D6CE0D20931E960095C014 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18D6CE1F20931E960095C014 /* HuiHua.xcdatamodeld in Sources */,
+				18D6CE1920931E960095C014 /* ViewController.m in Sources */,
+				18D6CE2F20931ED90095C014 /* HuiHuaViewController.m in Sources */,
+				18AA1B2C209951B400E3D9C9 /* HHTableView.m in Sources */,
+				18D6CE37209333790095C014 /* CustomLabel.m in Sources */,
+				18D6CE3320931FC20095C014 /* HuiHuaTableViewCell.m in Sources */,
+				18D6CE2720931E960095C014 /* main.m in Sources */,
+				18D6CE1620931E960095C014 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		18D6CE1A20931E960095C014 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18D6CE1B20931E960095C014 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		18D6CE2220931E960095C014 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18D6CE2320931E960095C014 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18D6CE2820931E960095C014 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		18D6CE2920931E960095C014 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18D6CE2B20931E960095C014 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5C27D2559D1872C1907ACF7C /* Pods-HuiHua.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HuiHua/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ZhiBoYuan.HuiHua;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		18D6CE2C20931E960095C014 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 68886D801A11468E8E2E25EB /* Pods-HuiHua.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HuiHua/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ZhiBoYuan.HuiHua;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18D6CE0C20931E960095C014 /* Build configuration list for PBXProject "HuiHua" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18D6CE2820931E960095C014 /* Debug */,
+				18D6CE2920931E960095C014 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18D6CE2A20931E960095C014 /* Build configuration list for PBXNativeTarget "HuiHua" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18D6CE2B20931E960095C014 /* Debug */,
+				18D6CE2C20931E960095C014 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		18D6CE1D20931E960095C014 /* HuiHua.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				18D6CE1E20931E960095C014 /* HuiHua.xcdatamodel */,
+			);
+			currentVersion = 18D6CE1E20931E960095C014 /* HuiHua.xcdatamodel */;
+			path = HuiHua.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 18D6CE0920931E960095C014 /* Project object */;
+}
